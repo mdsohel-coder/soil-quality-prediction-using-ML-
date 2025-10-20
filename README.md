@@ -1,1 +1,7 @@
 # soil-quality-prediction-using-ML-
+
+This project aims to predict soil fertility levels based on various soil parameters such as nitrogen, phosphorus, potassium, pH, and other nutrients. Using a Random Forest Classifier, the model classifies soil fertility into three levels: Low, Medium, and High. Based on the predicted fertility, the system also provides crop recommendations suitable for the soil. The dataset used contains 1288 samples with 13 features, which were preprocessed, cleaned, and scaled before training.
+
+The project includes visualizations like confusion matrices and feature importance charts to better understand model performance. The trained model and scaler are saved using joblib for future predictions or deployment. Additionally, a simple Streamlit app provides an interactive interface for predicting soil fertility and recommending crops in real time.
+
+This work demonstrates the application of machine learning in agriculture, aiming to help farmers make informed decisions about crop selection and soil management. Future improvements may include adding more data, performing hyperparameter tuning for better accuracy, and integrating real-time soil measurements for dynamic predictions.

@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 import pandas as pd
 
-# Load the saved model and scaler
+
 try:
     model = joblib.load('soil_fertility_model.pkl')
     scaler = joblib.load('scaler.pkl')
